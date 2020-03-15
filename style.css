@@ -1,0 +1,112 @@
+html{
+    height: 800px;
+}
+#top{
+    background: url("img/pexels-photo-1424246.jpeg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+header a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    font-size: 1.2em;
+}
+header a:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: red;
+    border: 7px solid transparent;
+}
+#about{
+    position: relative;
+    top: -19px;
+    background: url("img/pexels-photo-270404.jpeg");
+}
+#about h3{
+    color: red;
+    font-family: 'Amatic SC', cursive;
+}
+.can__skills,.can__skills2{
+    display: flex;
+}
+.can__skills__html,.can__skills__css{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3px;
+}
+.can__skills__html h2,.can__skills__css h2{
+    color: blue;
+    font-weight: bold;
+}
+.can__skills__html h3,.can__skills__css{
+    color: lime;
+    font-weight: bold;
+}
+.can__skills2__js,.can__skills2__react{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3px;
+}
+.can__skills2__js h2,.can__skills2__react h2{
+    color: blue;
+    font-weight: bold;
+}
+.can__skills2__js h3,.can__skills2__react h3{
+    color: lime;
+    font-weight: bold;
+}
+#myworks img{
+    width: 250px;
+    height: 200px;
+}
+#myworks button{
+    padding: 15px;
+    color: blue;
+    background-color: orange;
+    border: 5px solid red;
+}
+.myworks__second-work{
+    margin-top: 10px;
+}
+#for-you h2{
+    color: blue;
+    font-weight: bold;
+}
+#for-you h3{
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+#location{
+    position: relative;
+    top: -15px;
+    background-color: darkcyan;
+    width: 100%;
+    height: 100px;
+}
+.btn-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.btn-top:hover{
+    color: blue;
+    background-color: orange;
+}

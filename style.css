@@ -47,7 +47,7 @@ header a:hover{
     font-weight: bold;
 }
 .can__skills__html h3,.can__skills__css{
-    color: lime;
+    color: green;
     font-weight: bold;
 }
 .can__skills2__js,.can__skills2__react{
@@ -61,7 +61,7 @@ header a:hover{
     font-weight: bold;
 }
 .can__skills2__js h3,.can__skills2__react h3{
-    color: lime;
+    color: green;
     font-weight: bold;
 }
 #myworks img{

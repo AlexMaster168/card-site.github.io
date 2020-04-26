@@ -5,47 +5,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Сайт визитка</title>
-    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="carousel/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="carousel/assets/owl.theme.default.min.css">
+    <script src="swiper/js/swiper.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bebas+Neue|BenchNine|Lobster|Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="https://image.flaticon.com/icons/png/128/69/69524.png">
-    <script>
-        $(window).scroll(function() {
-            if ($(this).scrollTop()) {
-                $('.btn-top').fadeIn();
-            } else {
-                $('.btn-top').fadeOut();
-            }
-        });
-        $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
-                items:2,
-                loop:true,
-                nav:true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false,
-                        dots:true
-                    },
-                    800: {
-                        items: 2,
-                        nav: false,
-                        dots:true
-                    },
-                    1000: {
-                        items: 3,
-                        nav: false,
-                        dots:true
-                    }
-                }
-            });
-        });
-    </script>
+    <script src="js/script.min.js"></script>
+    <script src="swiper/js/swiper-config.min.js"></script>
 </head>
 <body>
 <header id="top">
@@ -69,12 +38,12 @@
         <img src="img/Без%20названия.png" alt="Html">
         <h2>HTML</h2>
         <h3>Стандарт HTML 5</h3>
-        <h3>Использование семантических тегов</h3>
-        <h3>Адаптивность для всех девайсов</h3>
-        <h3>Кроссбраузерность</h3>
+        <h3>Использование семанти-<br>ческих тегов</h3>
+        <h3>Адаптивность<br> для всех девайсов</h3>
+        <h3>Кросс-<br>браузерность</h3>
         <h3>Валидность</h3>
-        <h3>Использование Emmet для быстрой работы</h3>
-        <h3>Использование Git и Github</h3>
+        <h3>Использование Emmet</h3>
+        <h3>Использова-<br>ние Git и Github</h3>
     </div>
     <div class="can__skills__css">
         <img src="img/unnamed.png" alt="Css">
@@ -97,7 +66,7 @@
         <h2>JavaScript</h2>
         <h3>Знание и применение нативного js</h3>
         <h3>Использование EcmaScript 6</h3>
-        <h3>Знание Gulp</h3>
+        <h3>Знание Gulp и Webpack</h3>
         <h3>Знание JQuery и умение подключать плагины</h3>
         <h3>Знание и применение TypeScript</h3>
         <h3>Использование Chrome DevTools</h3>
@@ -107,7 +76,7 @@
         <img src="img/images.jpg" alt="React">
         <h2>React</h2>
         <h3>Знание и применение React</h3>
-        <h3>Написал Todo-app</h3>
+        <h3>Имею практику на React</h3>
         <h3>Знание и применение Redux</h3>
     </div>
 </div>
@@ -115,29 +84,42 @@
 <div id="myworks">
     <h2>Примеры моих работ</h2>
     <div class="myworks__first-work">
-    <img src="img/Снимок.PNG" alt="Первый сайт">
+    <img src="img/Снимок2.PNG" alt="Первый сайт">
     <a href="https://alexmaster168.github.io/site.github.io/"><button>Посмотреть</button></a>
     </div>
     <div class="myworks__second-work">
         <img src="img/Снимочек.PNG" alt="Второй сайт">
         <a href="https://alexmaster168.github.io/bootstrap.github.io/"><button>Посмотреть</button></a>
     </div>
+    <div class="myworks__third-work">
+        <img src="img/Снимок3.PNG" alt="Третий сайт">
+        <a href="https://alexmaster168.github.io/game/"><button>Посмотреть</button></a>
+    </div>
     </div>
 <div id="for-you">
     <h2>Сотрудничество</h2>
     <h3>Если ты можешь круче и предлагаешь сделай по-круче, то пиши знай нету предела совершенства</h3>
-    <div class="owl-carousel owl-theme">
-        <div><img src="img/20190817_214520.jpg" alt="Картинка"></div>
-        <div><img src="img/20190817_214520.jpg" alt="Картинка2"></div>
-        <div><img src="img/20190817_214520.jpg" alt="Картинка3"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/s.jpg" alt="s"></div>
+            <div class="swiper-slide"><img src="img/s2.jpg" alt="s2"></div>
+            <div class="swiper-slide"><img src="img/s3.jpg" alt="s3"></div>
+            <div class="swiper-slide"><img src="img/s4.jpg" alt="s4"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
-</div>
 <hr>
 <footer id="location">
     <h2>Где меня найти?</h2>
-    <a href="https://vk.com/silveystruk2"><i class="fa fa-vk"></i></a>
-    <a href="https://github.com/AlexMaster168"><i class="fa fa-github"></i></a>
+    <a href="https://vk.com/silveystruk2"><i class="fa fa-vk fa-2x"></i></a>
+    <a href="https://github.com/AlexMaster168"><i class="fa fa-github fa-2x"></i></a>
 </footer>
-<a href="#top"><button class="btn-top" title="Go to Top">Наверх</button></a>
+    <a class="button hvr-icon-up btn-top" href="#"  title="На вверх">
+        На вверх
+        <i class="fa fa-arrow-circle-o-up hvr-icon"></i>
+    </a>
+</div>
 </body>
 </html>

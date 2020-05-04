@@ -23,11 +23,7 @@
     <a href="#myworks">My works</a>
     <a href="#for-you">for you</a>
     <a href="#location">Contact with me</a>
-    <div class="header-lang">
-        <span class="header-lang__img"></span>
-        <span class="header-lang__slider"></span>
-    </div>
-    <a href='index.html' class="header-lang__ru"></a>
+    <a href="index.html"><img src="img/ru.png" alt="ru"></a>
 </header>
 <div id="about">
     <h2>About me </h2>
@@ -134,20 +130,5 @@
         <i class="fas fa-arrow-circle-up hvr-icon"></i>
     </a>
 </div>
-<script>
-    $(document).ready(function() {
-
-        let stylesOfLang = {
-            position: 'absolute',
-            top: '100px',
-            left: 35,
-            cursor: 'pointer',
-            zIndex: '1',
-        };
-        $('.header-lang').on('click', function() {
-            $('.header-lang__ru').css(stylesOfLang).slideToggle();
-        })
-    })
-</script>
 </body>
 </html>

@@ -9,64 +9,97 @@
     <link rel="stylesheet" href="swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="swiper/js/swiper.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bebas+Neue|BenchNine|Lobster|Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bebas+Neue|BenchNine|Lobster|Russo+One&display=swap"
+          rel="stylesheet">
     <link rel="icon" href="https://image.flaticon.com/icons/png/128/69/69524.png">
     <script src="js/script.min.js"></script>
     <script src="swiper/js/swiper-config.min.js"></script>
 </head>
 <body>
 <header id="top">
-    <a href="#about">Обо мне</a>
-    <a href="#can">Что я умею</a>
-    <a href="#myworks">Мои работы</a>
-    <a href="#for-you">Для тебя</a>
-    <a href="#location">Связь со мной</a>
+    <button class="fa fa-bars button-menu"></button>
+    <nav id="menu">
+        <a href="#about">Обо мне</a>
+        <a href="#can">Что я умею</a>
+        <a href="#myworks">Мои работы</a>
+        <a href="#for-you">Для тебя</a>
+        <a href="#location">Связь со мной</a>
+    </nav>
     <a href="index-eng.html"><img src="img/english.png" alt="english"></a>
+    <div class="swipe">
+    <a href="#top"><img src="img/Ellipse%201.png" alt="Ellipse1"></a>
+    <a href="#can"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+    <a href="#can__skills2__js"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+    </div>
 </header>
 <div id="about">
     <h2>Обо мне </h2>
-     <h3>Меня зовут Алексей и я начинающий программист </h3>
-     <h3>Я мечтаю найти работу в IT cфере </h3>
-     <hr>
-     <h3>Думаю в скором будущем это мне удасться</h3>
+    <button class="accordion">Как меня зовут?</button>
+    <div class="panel">
+        <p>Меня зовут Алексей и я начинающий программист</p>
+    </div>
+    <button class="accordion">О чём, я мечтаю?</button>
+    <div class="panel">
+        <h3>Я мечтаю найти работу в IT cфере </h3>
+        <hr>
+        <h3>Думаю в скором будущем это мне удастся</h3>
+    </div>
+    <button class="accordion">Что, я делаю ради цели?</button>
+    <div class="panel">
+        <p>Я самоучка, всё знания, я сам добил и продолжаю развиваться на пути к цели</p>
+    </div>
+    <button class="accordion">Почему, я решил стал программистом?</button>
+    <div class="panel">
+        <p>Я однажды подумал, а не создать ли мне сайт, и это мне очень сильно понравилось так, началась моя симпатия к IT</p>
+    </div>
 </div>
 <div id="can">
+    <div class="swipe-2">
+        <a href="#top"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+        <a href="#can"><img src="img/Ellipse%201.png" alt="Ellipse1"></a>
+        <a href="#can__skills2__js"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+    </div>
     <h2>Мои skills</h2>
     <div class="can__skills">
-    <div class="can__skills__html">
-        <div class="can__skills__html__img">
-            <i class="fab fa-html5"></i>
+        <div class="can__skills__html">
+            <div class="can__skills__html__img">
+                <i class="fab fa-html5"></i>
+            </div>
+            <h2>HTML</h2>
+            <h3>Стандарт HTML 5</h3>
+            <h3>Использование семантических тегов</h3>
+            <h3>Адаптивность для всех девайсов</h3>
+            <h3>Кроссбраузерность</h3>
+            <h3>Валидность</h3>
+            <h3>Использование Emmet</h3>
+            <h3>Использование Git и Github</h3>
         </div>
-        <h2>HTML</h2>
-        <h3>Стандарт HTML 5</h3>
-        <h3>Использование семантических тегов</h3>
-        <h3>Адаптивность для всех девайсов</h3>
-        <h3>Кроссбраузерность</h3>
-        <h3>Валидность</h3>
-        <h3>Использование Emmet</h3>
-        <h3>Использование Git и Github</h3>
-    </div>
-    <div class="can__skills__css">
-        <div class="can__skills__css__img">
-            <i class="fab fa-css3"></i>
+        <div id="can__skills__css">
+            <div class="can__skills__css__img">
+                <i class="fab fa-css3"></i>
+            </div>
+            <h2>CSS</h2>
+            <h3>Стандарт CSS 3</h3>
+            <h3>Организация классов по BEM методологии</h3>
+            <h3>Использование препроцессоров SASS/SCSS/Less (like SCSS)</h3>
+            <h3>Владение медиа-брейкпоинтами</h3>
+            <h3>Использование Bootstrap 4 + grid system</h3>
+            <h3>Верстка на Flexbox и Grid</h3>
+            <h3>Создание отзывчивых трансформаций</h3>
+            <h3>Cоздание адаптивных и отзывчивых сайтов</h3>
         </div>
-        <h2>CSS</h2>
-        <h3>Стандарт CSS 3</h3>
-        <h3>Организация классов по BEM методологии</h3>
-        <h3>Использование препроцессоров SASS/SCSS/Less (like SCSS)</h3>
-        <h3>Владение медиа-брейкпоинтами</h3>
-        <h3>Использование Bootstrap 4 + grid system</h3>
-        <h3>Верстка на Flexbox и Grid</h3>
-        <h3>Создание отзывчивых трансформаций</h3>
-        <h3>Cоздание адаптивных и отзывчивых сайтов</h3>
-    </div>
     </div>
 </div>
 <hr>
 <div class="can__skills2">
-    <div class="can__skills2__js">
+    <div id="can__skills2__js">
+        <div class="swipe-3">
+            <a href="#top"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+            <a href="#can"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+            <a href="#can__skills2__js"><img src="img/Ellipse%201.png" alt="Ellipse1"></a>
+        </div>
         <div class="can__skills2__js__img">
             <i class="fab fa-js"></i>
         </div>
@@ -90,21 +123,56 @@
     </div>
 </div>
 <hr>
+<div class="skillbar">
+    <div class="container-fluid" id="skills">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="skills-text">
+                    <h1 class="skills-title underline">SKILLS</h1>
+                    <dl class="skills-list">
+                        <dt class="skill-name">HTML</dt>
+                        <dd class="skill-percent skill-percent-html" data-percent="100%">100%</dd>
+                        <dt class="skill-name">CSS</dt>
+                        <dd class="skill-percent skill-percent-css" data-percent="92%">92%</dd>
+                        <dt class="skill-name">JQuery</dt>
+                        <dd class="skill-percent skill-percent-jquery" data-percent="100%">100%</dd>
+                        <dt class="skill-name">WebPack</dt>
+                        <dd class="skill-percent skill-percent-scss" data-percent="80%">80%</dd>
+                        <dt class="skill-name">Javascript</dt>
+                        <dd class="skill-percent skill-percent-javascript" data-percent="85%">85%</dd>
+                        <dt class="skill-name">React</dt>
+                        <dd class="skill-percent skill-percent-wordpress" data-percent="77%">77%</dd>
+                        <dt class="skill-name">TypeScript</dt>
+                        <dd class="skill-percent skill-percent-ts" data-percent="90%">90%</dd>
+                        <dt class="skill-name">GIT</dt>
+                        <dd class="skill-percent skill-percent-git" data-percent="100%">100%</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="myworks">
     <h2>Примеры моих работ</h2>
     <div class="myworks__first-work">
-    <img src="img/Снимок2.PNG" alt="Первый сайт">
-    <a href="https://alexmaster168.github.io/site.github.io/"><button>Посмотреть</button></a>
+        <img src="img/Снимок2.PNG" alt="Первый сайт">
+        <a href="https://alexmaster168.github.io/site.github.io/">
+            <button>Посмотреть</button>
+        </a>
     </div>
     <div class="myworks__second-work">
         <img src="img/Снимочек.PNG" alt="Второй сайт">
-        <a href="https://alexmaster168.github.io/bootstrap.github.io/"><button>Посмотреть</button></a>
+        <a href="https://alexmaster168.github.io/bootstrap.github.io/">
+            <button>Посмотреть</button>
+        </a>
     </div>
     <div class="myworks__third-work">
         <img src="img/Снимок3.PNG" alt="Третий сайт">
-        <a href="https://alexmaster168.github.io/game/"><button>Посмотреть</button></a>
+        <a href="https://alexmaster168.github.io/game/">
+            <button>Посмотреть</button>
+        </a>
     </div>
-    </div>
+</div>
 <div id="for-you">
     <h2>Сотрудничество</h2>
     <h3>Если ты можешь круче и предлагаешь сделай по-круче, то пиши знай нету предела совершенства</h3>
@@ -119,14 +187,14 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-<hr>
-<footer id="location">
-    <h2>Где меня найти?</h2>
-    <a href="https://vk.com/silveystruk2"><i class="fab fa-vk fa-2x"></i></a>
-    <a href="https://github.com/AlexMaster168"><i class="fab fa-github fa-2x"></i></a>
-</footer>
-    <a class="button hvr-icon-up btn-top" href="#"  title="На вверх">
-        На вверх
+    <hr>
+    <footer id="location">
+        <h2>Где меня найти?</h2>
+        <a href="https://vk.com/silveystruk2"><i class="fab fa-vk fa-2x"></i></a>
+        <a href="https://github.com/AlexMaster168"><i class="fab fa-github fa-2x"></i></a>
+    </footer>
+    <a class="button hvr-icon-up btn-top" href="#" title="На вверх">
+        <img src="img/top.png" alt="top">
         <i class="fas fa-arrow-circle-up hvr-icon"></i>
     </a>
 </div>

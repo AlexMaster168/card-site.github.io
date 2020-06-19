@@ -18,21 +18,48 @@
 </head>
 <body>
 <header id="top">
+    <button class="fa fa-bars button-menu"></button>
+    <nav id="menu">
     <a href="#about">About me</a>
     <a href="#can">What i can do</a>
     <a href="#myworks">My works</a>
     <a href="#for-you">for you</a>
     <a href="#location">Contact with me</a>
+    </nav>
     <a href="index.html"><img src="img/ru.png" alt="ru"></a>
+    <div class="swipe">
+        <a href="#top"><img src="img/Ellipse%201.png" alt="Ellipse1"></a>
+        <a href="#can"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+        <a href="#can__skills2__js"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+    </div>
 </header>
 <div id="about">
-    <h2>About me </h2>
-    <h3>My name is Alex and I am a beginner programmer. </h3>
-    <h3>I dream of finding a job in the IT field </h3>
-    <hr>
-    <h3>I think in the near future I will succeed</h3>
+    <h2>Обо мне </h2>
+    <button class="accordion">What is my name?</button>
+    <div class="panel">
+        <p>My name is Alex and I am beginner programmer</p>
+    </div>
+    <button class="accordion">What i dream about?</button>
+    <div class="panel">
+        <h3>I dream of finding a job in the IT field</h3>
+        <hr>
+        <h3>I think in the near future I will succeed</h3>
+    </div>
+    <button class="accordion">What am I doing for the purpose</button>
+    <div class="panel">
+        <p>I’m self-taught, all knowledge, I myself have finished and continue to develop on the way to the goal</p>
+    </div>
+    <button class="accordion">Why, I decided to become a programmer</button>
+    <div class="panel">
+        <p>I once thought if I should not create a website, and I really liked it so much, my sympathy for IT began</p>
+    </div>
 </div>
 <div id="can">
+    <div class="swipe-2">
+        <a href="#top"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+        <a href="#can"><img src="img/Ellipse%201.png" alt="Ellipse1"></a>
+        <a href="#can__skills2__js"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+    </div>
     <h2>My skills</h2>
     <div class="can__skills">
         <div class="can__skills__html">
@@ -48,7 +75,7 @@
             <h3>Using Emmet</h3>
             <h3>Using Git и Github</h3>
         </div>
-        <div class="can__skills__css">
+        <div id="can__skills__css">
             <div class="can__skills__css__img">
                 <i class="fab fa-css3"></i>
             </div>
@@ -66,7 +93,12 @@
 </div>
 <hr>
 <div class="can__skills2">
-    <div class="can__skills2__js">
+    <div id="can__skills2__js">
+        <div class="swipe-3">
+            <a href="#top"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+            <a href="#can"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
+            <a href="#can__skills2__js"><img src="img/Ellipse%201.png" alt="Ellipse1"></a>
+        </div>
         <div class="can__skills2__js__img">
             <i class="fab fa-js"></i>
         </div>
@@ -90,6 +122,35 @@
     </div>
 </div>
 <hr>
+<div class="skillbar">
+<div class="container-fluid" id="skills">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="skills-text">
+                <h1 class="skills-title underline">SKILLS</h1>
+                <dl class="skills-list">
+                    <dt class="skill-name">HTML</dt>
+                    <dd class="skill-percent skill-percent-html" data-percent="100%">100%</dd>
+                    <dt class="skill-name">CSS</dt>
+                    <dd class="skill-percent skill-percent-css" data-percent="92%">92%</dd>
+                    <dt class="skill-name">JQuery</dt>
+                    <dd class="skill-percent skill-percent-jquery" data-percent="100%">100%</dd>
+                    <dt class="skill-name">WebPack</dt>
+                    <dd class="skill-percent skill-percent-scss" data-percent="80%">80%</dd>
+                    <dt class="skill-name">Javascript</dt>
+                    <dd class="skill-percent skill-percent-javascript" data-percent="85%">85%</dd>
+                    <dt class="skill-name">React</dt>
+                    <dd class="skill-percent skill-percent-wordpress" data-percent="77%">77%</dd>
+                    <dt class="skill-name">TypeScript</dt>
+                    <dd class="skill-percent skill-percent-ts" data-percent="90%">90%</dd>
+                    <dt class="skill-name">GIT</dt>
+                    <dd class="skill-percent skill-percent-git" data-percent="100%">100%</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 <div id="myworks">
     <h2>Examples of my work</h2>
     <div class="myworks__first-work">
@@ -125,8 +186,8 @@
         <a href="https://vk.com/silveystruk2"><i class="fab fa-vk fa-2x"></i></a>
         <a href="https://github.com/AlexMaster168"><i class="fab fa-github fa-2x"></i></a>
     </footer>
-    <a class="button hvr-icon-up btn-top" href="#"  title="На вверх">
-        On top
+    <a class="button hvr-icon-up btn-top" href="#" title="На вверх">
+        <img src="img/top.png" alt="top">
         <i class="fas fa-arrow-circle-up hvr-icon"></i>
     </a>
 </div>

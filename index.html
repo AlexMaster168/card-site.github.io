@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Сайт визитка</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -14,8 +14,10 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bebas+Neue|BenchNine|Lobster|Russo+One&display=swap"
           rel="stylesheet">
     <link rel="icon" href="https://image.flaticon.com/icons/png/128/69/69524.png">
-    <script src="js/script.min.js"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/script.js"></script>
     <script src="swiper/js/swiper-config.min.js"></script>
+    <script src="js/wow.min.js"></script>
 </head>
 <body>
 <header id="top">
@@ -36,21 +38,21 @@
 </header>
 <div id="about">
     <h2>Обо мне </h2>
-    <button class="accordion">Как меня зовут?</button>
+    <button class="accordion wow zoomInUp">Как меня зовут?</button>
     <div class="panel">
         <p>Меня зовут Алексей и я начинающий программист</p>
     </div>
-    <button class="accordion">О чём, я мечтаю?</button>
+    <button class="accordion wow zoomInUp">О чём, я мечтаю?</button>
     <div class="panel">
         <h3>Я мечтаю найти работу в IT cфере </h3>
         <hr>
         <h3>Думаю в скором будущем это мне удастся</h3>
     </div>
-    <button class="accordion">Что, я делаю ради цели?</button>
+    <button class="accordion wow zoomInUp">Что, я делаю ради цели?</button>
     <div class="panel">
         <p>Я самоучка, всё знания, я сам добил и продолжаю развиваться на пути к цели</p>
     </div>
-    <button class="accordion">Почему, я решил стал программистом?</button>
+    <button class="accordion wow zoomInUp">Почему, я решил стал программистом?</button>
     <div class="panel">
         <p>Я однажды подумал, а не создать ли мне сайт, и это мне очень сильно понравилось так, началась моя симпатия к IT</p>
     </div>
@@ -62,7 +64,7 @@
         <a href="#can__skills2__js"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
     </div>
     <h2>Мои skills</h2>
-    <div class="can__skills">
+    <div class="can__skills wow zoomInUp">
         <div class="can__skills__html">
             <div class="can__skills__html__img">
                 <i class="fab fa-html5"></i>
@@ -93,7 +95,7 @@
     </div>
 </div>
 <hr>
-<div class="can__skills2">
+<div class="can__skills2 wow zoomInUp">
     <div id="can__skills2__js">
         <div class="swipe-3">
             <a href="#top"><img src="img/Ellipse%202.png" alt="Ellipse2"></a>
@@ -113,7 +115,7 @@
         <h3>Использование UNit тестирования с Jest</h3>
         <h3>Настройка и подключение npm и yarn пакетов</h3>
     </div>
-    <div class="can__skills2__react">
+    <div class="can__skills2__react wow zoomInUp">
         <div class="can__skills2__react__img">
             <i class="fab fa-react"></i>
         </div>
@@ -126,10 +128,11 @@
         <h3>HOC, lifecycle, React Router</h3>
         <h3>Props, refs, classes</h3>
         <h3>Firebase</h3>
+        <h3>Также знаю React Native Expo и другие элементы</h3>
     </div>
 </div>
 <hr>
-<div class="skillbar">
+<div class="skillbar wow zoomInUp">
     <div class="container-fluid" id="skills">
         <div class="row">
             <div class="col-lg-12">
@@ -160,19 +163,19 @@
 </div>
 <div id="myworks">
     <h2>Примеры моих работ</h2>
-    <div class="myworks__first-work">
+    <div class="myworks__first-work wow zoomInUp">
         <img src="img/Снимок4.PNG" alt="Первый сайт">
         <a href="https://alexmaster168.github.io/site.github.io/">
             <button>Посмотреть</button>
         </a>
     </div>
-    <div class="myworks__second-work">
+    <div class="myworks__second-work wow zoomInUp">
         <img src="img/Снимочек.PNG" alt="Второй сайт">
         <a href="https://alexmaster168.github.io/bootstrap.github.io/">
             <button>Посмотреть</button>
         </a>
     </div>
-    <div class="myworks__third-work">
+    <div class="myworks__third-work wow zoomInUp">
         <img src="img/Снимок3.PNG" alt="Третий сайт">
         <a href="https://alexmaster168.github.io/game/">
             <button>Посмотреть</button>
@@ -199,11 +202,11 @@
         <a href="https://vk.com/silveystruk2"><i class="fab fa-vk fa-2x"></i></a>
         <a href="https://github.com/AlexMaster168"><i class="fab fa-github fa-2x"></i></a>
     </footer>
-    <a class="button hvr-icon-up btn-top" href="#" title="На вверх">
+    <a class="button hvr-icon-up btn-top wow zoomInUp" href="#" title="На вверх">
         <img src="img/top.png" alt="top">
         <i class="fas fa-arrow-circle-up hvr-icon"></i>
     </a>
-    <div class="support-me">
+    <div class="support-me wow zoomInUp">
        <h2>Если вам нравится моя деятельность и вы готовы поддержать, буду очень рад</h2>
         <form method="POST" accept-charset="utf-8" action="https://www.liqpay.ua/api/3/checkout">
             <input type="hidden" name="data" value="eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTUwNjM3NDkxNzg3IiwiYW1vdW50IjoiMjAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCf0L7QtNC00LXRgNC20LDRgtGMINC80L7RjiDQtNC10Y/RgtC10LvRjNC90L7RgdGC0YwiLCJ0eXBlIjoiZG9uYXRlIiwicmVjdXJyaW5nYnl0b2tlbiI6MSwibGFuZ3VhZ2UiOiJydSJ9" />

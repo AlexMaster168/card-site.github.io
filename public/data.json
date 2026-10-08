@@ -1,0 +1,366 @@
+{
+  "profile": {
+    "name": { "en": "Oleksii Silveistruk", "uk": "Олексій Сільвейструк" },
+    "role": {
+      "en": "Full-Stack Engineer · Applied ML & Cybersecurity Researcher",
+      "uk": "Full-stack розробник · Applied ML · Кібербезпека"
+    },
+    "summary": {
+      "en": "Full-stack developer who builds complete products end to end — from 3D graphics and real-time systems to ML-based security. Published researcher: a journal article on chess-engine search optimization and a conference paper on an ML Web Application Firewall. Master's student in cybersecurity.",
+      "uk": "Full-stack розробник, який будує продукти від початку до кінця — від 3D-графіки та real-time систем до ML-безпеки. Автор журнальної статті про оптимізацію пошуку в шаховому рушії та тез про ML Web Application Firewall. Магістрант з кібербезпеки."
+    },
+    "location": { "en": "Odesa, Ukraine · open to relocation", "uk": "Одеса, Україна · відкритий до релокації" },
+    "email": "asilvejstruk@gmail.com",
+    "github": "https://github.com/AlexMaster168",
+    "linkedin": "https://www.linkedin.com/in/oleksii-silveistruk",
+    "telegram": "https://t.me/AlexMaster168",
+    "cv": "cv.pdf"
+  },
+  "stats": [
+    { "value": "74", "label": { "en": "GitHub repositories", "uk": "репозиторії на GitHub" } },
+    { "value": "20+", "label": { "en": "projects shipped", "uk": "проєктів" } },
+    { "value": "2", "label": { "en": "publications in 2026", "uk": "наукові публікації 2026" } },
+    { "value": "99.76%", "label": { "en": "ML WAF accuracy", "uk": "точність ML WAF" } }
+  ],
+  "skills": [
+    { "group": { "en": "Frontend", "uk": "Frontend" }, "items": ["TypeScript", "React", "Next.js", "Vue 3", "Angular", "Redux", "Three.js", "Tailwind"] },
+    { "group": { "en": "Backend", "uk": "Backend" }, "items": ["Node.js", "NestJS", "Express", "Hono", "Django", "Flask", "Rails", "Spring Boot", "ASP.NET Core", "REST", "GraphQL", "gRPC"] },
+    { "group": { "en": "Real-time", "uk": "Real-time" }, "items": ["Socket.IO", "WebSocket", "WebRTC", "MQTT", "Yjs CRDT"] },
+    { "group": { "en": "Data & AI", "uk": "Дані та AI" }, "items": ["Python", "NumPy", "Pandas", "scikit-learn", "XGBoost", "TensorFlow", "PyTorch"] },
+    { "group": { "en": "Databases", "uk": "Бази даних" }, "items": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Firebase", "Drizzle"] },
+    { "group": { "en": "Security", "uk": "Безпека" }, "items": ["Pentesting", "OWASP Top 10", "WAF", "Burp Suite", "Nmap", "Wireshark", "Semgrep", "SonarQube"] },
+    { "group": { "en": "Tools & Games", "uk": "Інструменти та ігри" }, "items": ["Docker", "Git", "GitHub Actions", "Vite", "Jest", "Unity / C#"] }
+  ],
+  "publications": [
+    {
+      "kind": { "en": "Journal article · 2026", "uk": "Стаття · 2026" },
+      "title": {
+        "en": "Optimization of the Minimax Algorithm with Alpha-Beta Pruning for Chess Artificial Intelligence Systems",
+        "uk": "Оптимізація алгоритму мінімакс з альфа-бета відсіканням для систем шахового штучного інтелекту"
+      },
+      "venue": {
+        "en": "Informatics. Culture. Technology, Vol. 3, No. 1 (3), pp. 179–188 · DOI 10.15276/ict.03.2026.15",
+        "uk": "«Інформатика. Культура. Техніка», т. 3, № 1 (3), с. 179–188 · DOI 10.15276/ict.03.2026.15"
+      },
+      "summary": {
+        "en": "Python minimax engine extended with iterative deepening, Zobrist-hashed transposition tables, MVV-LVA move ordering, killer/history heuristics and quiescence search.",
+        "uk": "Рушій minimax на Python з ітеративним поглибленням, транспозиційними таблицями (Zobrist), MVV-LVA, killer/history-евристиками та quiescence search."
+      },
+      "metrics": [
+        { "value": "120×", "label": { "en": "fewer nodes at depth 5", "uk": "менше вузлів на глибині 5" } },
+        { "value": "92.4 → 0.43 s", "label": { "en": "decision time", "uk": "час рішення" } },
+        { "value": "96.5%", "label": { "en": "wins at level 0", "uk": "перемог на рівні 0" } }
+      ],
+      "link": "https://doi.org/10.15276/ict.03.2026.15"
+    },
+    {
+      "kind": { "en": "Conference paper · Aug 2026", "uk": "Тези · серпень 2026" },
+      "title": {
+        "en": "A System for Filtering HTTP Traffic of Web Applications (WAF) Using Machine Learning",
+        "uk": "Система фільтрації HTTP-трафіку веб-додатків (WAF) з використанням машинного навчання"
+      },
+      "venue": {
+        "en": "Perspective Directions of Information Protection, VIII Int. Sci.-Pract. Conf., Odesa, pp. 106–109",
+        "uk": "VIII міжнар. конф. «Перспективні напрями захисту інформації», Одеса, с. 106–109"
+      },
+      "summary": {
+        "en": "Intelligent reverse-proxy WAF: 51-feature request vectors, SMOTE balancing, XGBoost / Random Forest / SVM / MLP ensemble with hybrid signature cross-validation.",
+        "uk": "Інтелектуальний reverse-proxy WAF: 51 ознака запиту, балансування SMOTE, ансамбль XGBoost / RF / SVM / MLP з гібридною сигнатурною перевіркою."
+      },
+      "metrics": [
+        { "value": "99.76%", "label": { "en": "accuracy", "uk": "точність" } },
+        { "value": "0.34%", "label": { "en": "false positives", "uk": "хибних спрацьовувань" } },
+        { "value": "≈15 ms", "label": { "en": "latency (p99 14.8 ms)", "uk": "затримка (p99 14,8 мс)" } }
+      ],
+      "link": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "online-compiler",
+      "title": "Online Compiler",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Browser IDE with its own execution engine — no Judge0, no Piston", "uk": "Онлайн-IDE з власним рушієм виконання — без Judge0 і Piston" },
+      "description": {
+        "en": "41 languages, 615 reference snippets auto-checked against expected output, real-PTY interactive console, debugger for 7 languages, Scratch 3 / Blockly, Arduino Uno emulation in the browser and ESP32 in QEMU. CI + nightly runs.",
+        "uk": "41 мова, 615 еталонних сніпетів з автоперевіркою, інтерактивна консоль на справжньому PTY, відладчик для 7 мов, Scratch 3 / Blockly, емуляція Arduino Uno в браузері та ESP32 у QEMU. CI + нічні прогони."
+      },
+      "tech": ["Django", "PostgreSQL", "Docker", "Monaco", "xterm.js", "WebSocket", "GitHub Actions"],
+      "github": "https://github.com/AlexMaster168/online-compiler",
+      "demo": "",
+      "images": ["projects/online-compiler-1.webp", "projects/online-compiler-2.webp"]
+    },
+    {
+      "id": "chess-3d-ai",
+      "title": "Chess 3D AI",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "3D chess with a custom AI engine — basis of the journal article", "uk": "3D-шахи з власним ШІ-рушієм — основа журнальної статті" },
+      "description": {
+        "en": "Four-package monorepo: custom TypeScript engine (alpha-beta, quiescence, opening book, 5 levels, Web Worker), procedural Three.js board with 3 themes and GSAP effects, Express + SQLite backend with Elo and analytics, Vue 3 client.",
+        "uk": "Монорепозиторій з 4 пакетів: власний рушій на TypeScript (alpha-beta, quiescence, дебютна книга, 5 рівнів, Web Worker), процедурна 3D-дошка на Three.js з 3 темами й GSAP, бекенд Express + SQLite з Elo та аналітикою, клієнт на Vue 3."
+      },
+      "tech": ["TypeScript", "Three.js", "Vue 3", "Vuex", "Express", "SQLite", "GSAP"],
+      "github": "https://github.com/AlexMaster168/chess-3D-ai",
+      "demo": "",
+      "images": []
+    },
+    {
+      "id": "collabboard",
+      "title": "CollabBoard",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Miro-style whiteboard with real-time collaboration", "uk": "Клон Miro: дошка, документи та спільна робота в реальному часі" },
+      "description": {
+        "en": "Real-time whiteboard + rich-text documents: 12 canvas tools, draw.io-style connectors with anchor snapping, Yjs CRDT collaboration, workspaces with roles, admin panel, templates, gateway over Socket.IO + gRPC.",
+        "uk": "Дошка + rich-text документи: 12 інструментів, з’єднувачі як у draw.io з прилипанням до якорів, спільна робота через Yjs CRDT, робочі простори з ролями, адмін-панель, шаблони, шлюз Socket.IO + gRPC."
+      },
+      "tech": ["Next.js 16", "React 19", "Konva", "Slate", "Yjs", "gRPC", "Drizzle"],
+      "github": "https://github.com/AlexMaster168/miro-clone",
+      "demo": "",
+      "images": ["projects/collabboard-1.webp", "projects/collabboard-2.webp"]
+    },
+    {
+      "id": "socialnet",
+      "title": "SocialNet",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Full social network in a pnpm monorepo", "uk": "Повноцінна соцмережа в pnpm-монорепозиторії" },
+      "description": {
+        "en": "JWT + Google OAuth, feed with reactions, friends and people search, WebSocket messenger (voice, video notes, attachments), WebRTC audio/video calls, channels with roles, mini-games.",
+        "uk": "JWT + Google OAuth, стрічка з реакціями, друзі й пошук людей, месенджер на WebSocket (голосові, відеоповідомлення, вкладення), аудіо/відеодзвінки на WebRTC, канали з ролями, міні-ігри."
+      },
+      "tech": ["Next.js", "Hono", "Drizzle", "PostgreSQL", "WebSocket", "WebRTC"],
+      "github": "https://github.com/AlexMaster168/social-network",
+      "demo": "",
+      "images": ["projects/socialnet-1.webp", "projects/socialnet-2.webp"]
+    },
+    {
+      "id": "monitoring-esp32",
+      "title": "Monitoring ESP32",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "IoT sensor platform with ML analysis", "uk": "IoT-платформа моніторингу датчиків із ML-аналізом" },
+      "description": {
+        "en": "MQTT ingestion from ESP32 devices, live dashboard, XGBoost anomaly detection and forecasting, sensor emulator with seeded demo data and a one-command local stack.",
+        "uk": "Збір даних з ESP32 через MQTT, живий дашборд, пошук аномалій і прогноз на XGBoost, емулятор датчиків з демо-даними та запуск усього стеку однією командою."
+      },
+      "tech": ["Spring Boot 3.2", "React 19", "MQTT", "XGBoost", "MySQL", "Chart.js"],
+      "github": "https://github.com/AlexMaster168/monitoring-esp32",
+      "demo": "",
+      "images": []
+    },
+    {
+      "id": "peremoga",
+      "title": "Peremoga",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Donation and aid-coordination platform for Ukraine", "uk": "Платформа допомоги та координації донатів для України" },
+      "description": {
+        "en": "Four roles, tickets (offers / requests), fundraisers, news, live updates via ActionCable, ActiveAdmin moderation, Swagger-documented API, UA/EN interface.",
+        "uk": "Чотири ролі, запити та оферти, збори коштів, новини, живі оновлення через ActionCable, модерація в ActiveAdmin, API з документацією Swagger, інтерфейс UA/EN."
+      },
+      "tech": ["Rails 8.1", "Angular 22", "PostgreSQL 17", "JWT", "ActionCable", "Tailwind"],
+      "github": "https://github.com/AlexMaster168/ruby-donate-peremoga",
+      "demo": "",
+      "images": ["projects/peremoga-1.webp", "projects/peremoga-2.webp"]
+    },
+    {
+      "id": "music-platform",
+      "title": "Music Platform",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "YouTube Music-style streaming app", "uk": "Стрімінгова платформа у стилі YouTube Music" },
+      "description": {
+        "en": "Player with queue / shuffle / repeat, playlists, artists and albums, genre / language search, cover tracks, JWT access + refresh, admin editing, Swagger.",
+        "uk": "Плеєр з чергою, shuffle і повтором, плейлисти, артисти й альбоми, пошук за жанром і мовою, кавери, JWT access + refresh, адмін-редагування, Swagger."
+      },
+      "tech": ["NestJS 11", "Next.js 16", "MongoDB", "Redux Toolkit", "TanStack Query"],
+      "github": "https://github.com/AlexMaster168/music-platform",
+      "demo": "",
+      "images": ["projects/music-platform-1.webp", "projects/music-platform-2.webp"]
+    },
+    {
+      "id": "langlearn",
+      "title": "LangLearn",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Language-learning platform with spaced repetition", "uk": "Платформа вивчення мов з інтервальними повтореннями" },
+      "description": {
+        "en": "18 courses in 5 languages, 8 lesson types (flashcards, quizzes, listening, grammar, video), spaced-repetition review, progress tracking, admin CRUD, JWT with refresh tokens.",
+        "uk": "18 курсів 5 мовами, 8 типів уроків (флешкартки, квізи, аудіювання, граматика, відео), SRS-повторення, відстеження прогресу, адмін CRUD, JWT з refresh-токенами."
+      },
+      "tech": ["ASP.NET Core 9", "EF Core", "Angular 22", "PostgreSQL"],
+      "github": "https://github.com/AlexMaster168/coursehub",
+      "demo": "",
+      "images": ["projects/langlearn-1.webp", "projects/langlearn-2.webp"]
+    },
+    {
+      "id": "mini-excel",
+      "title": "Mini Excel",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Spreadsheet in the browser — no UI framework", "uk": "Табличний процесор у браузері — без UI-фреймворків" },
+      "description": {
+        "en": "Built on a hand-written mini-framework: 60+ formula functions with reference shifting, charts, multiple sheets, merged cells, undo/redo, .xlsx import/export, 64 tests.",
+        "uk": "На власному міні-фреймворку: 60+ функцій у формулах зі зсувом посилань, графіки, кілька листів, об’єднані клітинки, undo/redo, імпорт/експорт .xlsx, 64 тести."
+      },
+      "tech": ["TypeScript", "Vite"],
+      "github": "https://github.com/AlexMaster168/excel-js",
+      "demo": "",
+      "images": ["projects/mini-excel-1.webp", "projects/mini-excel-2.webp"]
+    },
+    {
+      "id": "unity-games",
+      "title": "Soul Knight Clone & Lullaby of Echoes",
+      "year": "2026",
+      "featured": true,
+      "tagline": { "en": "Two Unity 6 games with everything generated in code", "uk": "Дві гри на Unity 6, де все згенеровано кодом" },
+      "description": {
+        "en": "Roguelike with procedural dungeons: 5 floors, 49 weapons, 60+ enemies, 6 bosses; all graphics and sound generated in code. Plus a narrative RPG with a “listen or erase” battle mechanic and 3 endings.",
+        "uk": "Roguelike з процедурними підземеллями: 5 поверхів, 49 видів зброї, 60+ ворогів, 6 босів; графіка й звук згенеровані кодом. Плюс сюжетна RPG з механікою «вислухати або стерти» та 3 кінцівками."
+      },
+      "tech": ["Unity 6", "C#", "Procedural generation"],
+      "github": "https://github.com/AlexMaster168/mini-soul-knight-unity",
+      "demo": "",
+      "images": ["projects/unity-games-1.webp", "projects/unity-games-2.webp"]
+    },
+    {
+      "id": "edulink",
+      "title": "EduLink",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "Link shortener + LMS with quizzes and certificates", "uk": "Скорочувач посилань + LMS, квізи, сертифікати" },
+      "description": { "en": "", "uk": "" },
+      "tech": [],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/edulink.webp"]
+    },
+    {
+      "id": "kupidevice",
+      "title": "KupiDevice",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "PERN e-commerce with Stripe and an admin panel", "uk": "PERN e-commerce зі Stripe та адмінкою" },
+      "description": { "en": "", "uk": "" },
+      "tech": ["PostgreSQL", "Express", "React", "Node.js", "Stripe"],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/kupidevice.webp"]
+    },
+    {
+      "id": "courses-shop",
+      "title": "Courses Shop",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "Online course store", "uk": "Магазин курсів" },
+      "description": { "en": "", "uk": "" },
+      "tech": ["Hono", "Drizzle", "Redis", "Zod"],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/courses-shop.webp"]
+    },
+    {
+      "id": "north-bank",
+      "title": "North Bank",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "Online bank in Vue with Firebase Auth", "uk": "Онлайн-банк на Vue з Firebase Auth" },
+      "description": { "en": "", "uk": "" },
+      "tech": ["Vue", "Firebase"],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/north-bank.webp"]
+    },
+    {
+      "id": "dela",
+      "title": "Dela",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "Notes & calendar PWA — offline, 4 themes", "uk": "Нотатки й календар, офлайн, 4 теми" },
+      "description": { "en": "", "uk": "" },
+      "tech": ["PWA"],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/dela.webp"]
+    },
+    {
+      "id": "uvp",
+      "title": "UVP",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "Django project manager: projects, finances, org graph", "uk": "Django: проєкти, фінанси, граф структури" },
+      "description": { "en": "", "uk": "" },
+      "tech": ["Django"],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/uvp.webp"]
+    },
+    {
+      "id": "checkers-master",
+      "title": "Checkers Master",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "8 rule sets, alpha-beta AI", "uk": "8 варіантів правил, AI alpha-beta" },
+      "description": { "en": "", "uk": "" },
+      "tech": [],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/checkers-master.webp"]
+    },
+    {
+      "id": "corporate-chats",
+      "title": "Corporate Chats",
+      "year": "",
+      "featured": false,
+      "tagline": { "en": "Flask + Socket.IO chats with video calls", "uk": "Flask, Socket.IO, відеодзвінки" },
+      "description": { "en": "", "uk": "" },
+      "tech": ["Flask", "Socket.IO"],
+      "github": "https://github.com/AlexMaster168",
+      "demo": "",
+      "images": ["projects/corporate-chats.webp"]
+    }
+  ],
+  "experience": [
+    {
+      "role": { "en": "“Ukrainian YouTube” · Science Skills Booster SUITT", "uk": "«Український YouTube» · Science Skills Booster SUITT" },
+      "period": "2024",
+      "description": {
+        "en": "Key team member. Student content-sharing platform: React/Next.js (SSR/SSG), NestJS, PostgreSQL + TypeORM, JWT, video upload, likes, comments, subscriptions.",
+        "uk": "Ключовий учасник команди. Студентська платформа контенту: React/Next.js (SSR/SSG), NestJS, PostgreSQL + TypeORM, JWT, завантаження відео, лайки, коментарі, підписки."
+      }
+    },
+    {
+      "role": { "en": "Front-End Course · EPAM Systems", "uk": "Front-End курс · EPAM Systems" },
+      "period": "Feb – Mar 2025",
+      "description": { "en": "Completed the Front-End development course and earned a certificate.", "uk": "Пройшов курс Front-End розробки та отримав сертифікат." }
+    },
+    {
+      "role": { "en": "Production Intern · ISyb", "uk": "Стажер · ISyb" },
+      "period": "Feb – Mar 2024",
+      "description": { "en": "Built a full-stack auto-parts e-commerce site with React, Node.js and TypeScript.", "uk": "Розробив full-stack інтернет-магазин автозапчастин на React, Node.js і TypeScript." }
+    },
+    {
+      "role": { "en": "Junior Frontend Developer · Asferro", "uk": "Junior Frontend Developer · Asferro" },
+      "period": "Jan – Feb 2022",
+      "description": {
+        "en": "Migrated an admin dashboard from GraphQL Apollo to REST; worked in a full-stack team until the company closed because of the war.",
+        "uk": "Мігрував адмін-панель з GraphQL Apollo на REST; працював у full-stack команді до закриття компанії через війну."
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": { "en": "M.Sc. Cybersecurity & Information Protection", "uk": "Магістр, Кібербезпека та захист інформації" },
+      "school": { "en": "State University of Intelligent Technologies and Communications", "uk": "Державний університет інтелектуальних технологій і зв’язку" },
+      "period": "2025 – 2026"
+    },
+    {
+      "degree": { "en": "B.Sc. Computer Science · score 100", "uk": "Бакалавр, Комп’ютерні науки · бал 100" },
+      "school": { "en": "State University of Intelligent Technologies and Communications", "uk": "Державний університет інтелектуальних технологій і зв’язку" },
+      "period": "2025"
+    }
+  ]
+}

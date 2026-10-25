@@ -8,7 +8,7 @@ const UI = {
     featured: 'Selected projects', more: 'More from GitHub', code: 'Code', live: 'Live demo',
     downloadCv: 'Download CV', getInTouch: 'Get in touch', publications: 'Research & publications',
     education: 'Education', open: 'Open publication', allRepos: 'All repositories on GitHub',
-    contactTitle: "Let's build something together", contactText: 'Open to offers, collaboration and relocation.',
+    contactTitle: "Let's build something together", contactText: 'Open to offers and collaboration. Based in Odesa, Ukraine. No relocation.',
     close: 'Close', details: 'Details',
   },
   uk: {
@@ -16,7 +16,7 @@ const UI = {
     featured: 'Вибрані проєкти', more: 'Ще з GitHub', code: 'Код', live: 'Демо',
     downloadCv: 'Завантажити CV', getInTouch: "Зв'язатися", publications: 'Наукові публікації',
     education: 'Освіта', open: 'Відкрити публікацію', allRepos: 'Усі репозиторії на GitHub',
-    contactTitle: 'Давайте будувати разом', contactText: 'Відкритий до пропозицій, співпраці та релокації.',
+    contactTitle: 'Давайте будувати разом', contactText: 'Відкритий до пропозицій і співпраці. Одеса, Україна. Без релокації.',
     close: 'Закрити', details: 'Детальніше',
   },
 }

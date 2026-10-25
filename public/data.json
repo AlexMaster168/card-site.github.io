@@ -316,7 +316,9 @@
       ],
       "github": "https://github.com/AlexMaster168/chess-3D-ai",
       "demo": "",
-      "images": []
+      "images": [
+        "projects/chess-3d-ai-1.webp"
+      ]
     },
     {
       "id": "ztna-ml",
@@ -342,7 +344,10 @@
       ],
       "github": "https://github.com/AlexMaster168/ztna-ml",
       "demo": "",
-      "images": []
+      "images": [
+        "projects/ztna-ml-1.webp",
+        "projects/ztna-ml-2.webp"
+      ]
     },
     {
       "id": "mirage",
@@ -366,7 +371,10 @@
       ],
       "github": "https://github.com/AlexMaster168/honeypot-practicum",
       "demo": "",
-      "images": []
+      "images": [
+        "projects/mirage-1.webp",
+        "projects/mirage-2.webp"
+      ]
     },
     {
       "id": "go-sales-crm",
@@ -393,7 +401,10 @@
       ],
       "github": "https://github.com/AlexMaster168/go-vue-crm",
       "demo": "",
-      "images": []
+      "images": [
+        "projects/go-sales-crm-1.webp",
+        "projects/go-sales-crm-2.webp"
+      ]
     },
     {
       "id": "collabboard",
@@ -475,7 +486,9 @@
       ],
       "github": "https://github.com/AlexMaster168/monitoring-esp32",
       "demo": "",
-      "images": []
+      "images": [
+        "projects/monitoring-esp32-1.webp"
+      ]
     },
     {
       "id": "peremoga",
@@ -601,7 +614,10 @@
       ],
       "github": "https://github.com/AlexMaster168/hogwarts-game",
       "demo": "",
-      "images": []
+      "images": [
+        "projects/hogwarts-mini-1.webp",
+        "projects/hogwarts-mini-2.webp"
+      ]
     },
     {
       "id": "unity-games",

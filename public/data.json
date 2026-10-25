@@ -596,6 +596,33 @@
       ]
     },
     {
+      "id": "mini-gta",
+      "title": "Sunset State · Mini GTA",
+      "year": "2026",
+      "featured": true,
+      "tagline": {
+        "en": "GTA-inspired open-world Unity prototype",
+        "uk": "Unity-прототип відкритого світу в дусі GTA"
+      },
+      "description": {
+        "en": "Single-player 3D prototype with a procedural world spanning three main cities and a separate Vice City region. Choose a profession, drive vehicles, complete missions and take part in crime and emergency-service events. Includes 45 personal vehicle variants, vehicle damage, swimming, interiors, police and FBI roles, garages, inventory, persistent settings and checksummed saves with backup recovery. Version 0.3.5 preview; repository images are offscreen Unity scene renders without the gameplay HUD.",
+        "uk": "Одиночний 3D-прототип з процедурним світом: три основні міста й окремий регіон Vice City. Вибір професії, транспорт, завдання, кримінальні події та робота екстрених служб. 45 варіантів особистого транспорту, пошкодження машин, плавання, інтер’єри, ролі поліції та ФБР, гаражі, інвентар, постійні налаштування й збереження з контрольною сумою та резервним відновленням. Версія 0.3.5 preview; зображення з репозиторію — позаекранні рендери сцен Unity без ігрового HUD."
+      },
+      "tech": [
+        "Unity 6",
+        "C#",
+        "Procedural generation",
+        "Vehicle physics"
+      ],
+      "github": "https://github.com/AlexMaster168/mini-gta",
+      "demo": "",
+      "images": [
+        "projects/mini-gta-1.webp",
+        "projects/mini-gta-2.webp",
+        "projects/mini-gta-3.webp"
+      ]
+    },
+    {
       "id": "hogwarts-mini",
       "title": "Hogwarts Mini",
       "year": "2026",

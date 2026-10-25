@@ -12,3 +12,7 @@ The existing project screenshots are retained. The following screenshots were ad
 | Monitoring ESP32 | Captured from the repository's React frontend running locally. Sensor readings, predictions and the resolved alert are local demonstration fixtures, not production telemetry. |
 
 Images are stored locally in `public/projects/` as WebP files. No third-party image host is required at runtime.
+
+## Sunset State / Mini GTA
+
+Source: `AlexMaster168/mini-gta`, commit `5ac8aa1`. Images: `Previews/MotorcycleRider.png`, `Previews/ModernCars.png`, `Previews/ViceCitySeparateRegion.png`. These are offscreen Unity scene renders without the gameplay HUD, as described in the project README.
